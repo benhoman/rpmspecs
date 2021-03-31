@@ -1,14 +1,13 @@
-%define version 0.1.0
-%define build_timestamp %{lua: print(os.date("%Y%m%d"))}
+%define version 1.1.1
 %define reponame ytfzf
 
 Name:           ytfzf
-Version:        %{build_timestamp}
+Version:        %{version}
 Release:        1%{?dist}
 Summary:        A posix script that helps you find Youtube videos (with out API) and opens/downloads using mpv/youtube-dl.
 License:        GPLv3
 Url:            https://github.com/pystardust/ytfzf
-Source0:        https://github.com/pystardust/ytfzf/archive/master.tar.gz
+Source0:        https://github.com/pystardust/ytfzf/archive/refs/tags/v%{version}.tar.gz
 
 Requires:       mpv
 Requires:       youtube-dl
@@ -37,5 +36,8 @@ install -m 0755 %{name} %{buildroot}/%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Tue Mar 30 2021 Ben Homan <ben@benhoman.com>
+- Modified Version numbers to follow github release tags.
+
 * Thu Mar 04 2021 Ben Homan <ben@benhoman.com>
-- 
+- Initial RPM Release
