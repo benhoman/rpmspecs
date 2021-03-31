@@ -25,7 +25,7 @@ A posix script that helps you find Youtube videos (with out API) and opens/downl
 
 
 %prep
-%autosetup -n %{reponame}-master
+%autosetup -n %{reponame}-%{version}
 
 
 %install
