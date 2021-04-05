@@ -1,4 +1,4 @@
-%define version 1.1.1
+%define version 1.1.2
 %define reponame ytfzf
 
 Name:           ytfzf
@@ -36,6 +36,9 @@ install -m 0755 %{name} %{buildroot}/%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Mon Apr 05 2021 Ben Homan <ben@benhoman.com>
+- Updated version to 1.1.2
+
 * Tue Mar 30 2021 Ben Homan <ben@benhoman.com>
 - Modified Version numbers to follow github release tags.
 
