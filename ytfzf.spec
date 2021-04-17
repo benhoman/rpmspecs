@@ -1,4 +1,4 @@
-%define version 1.1.2
+%define version 1.1.4
 %define reponame ytfzf
 
 Name:           ytfzf
@@ -12,7 +12,7 @@ Source0:        https://github.com/pystardust/ytfzf/archive/refs/tags/v%{version
 Requires:       mpv
 Requires:       youtube-dl
 Requires:       jq
-Recommends:       fzf
+Recommends:     fzf
 
 %description
 
@@ -36,6 +36,9 @@ install -m 0755 %{name} %{buildroot}/%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Mon Apr 16 2021 Ben Homan <ben@benhoman.com>
+- Bumped version to 1.1.4
+
 * Mon Apr 05 2021 Ben Homan <ben@benhoman.com>
 - Updated version to 1.1.2
 
