@@ -1,4 +1,4 @@
-%define version 1.1.5
+%define version 1.1.6
 %define reponame ytfzf
 
 Name:           ytfzf
@@ -36,6 +36,9 @@ install -m 0755 %{name} %{buildroot}/%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Wed Jun 2 2021 Ben Homan <ben@benhoman.com>
+- Bumped version to 1.1.6
+
 * Fri May 7 2021 Ben Homan <ben@benhoman.com>
 - Bumped version to 1.1.5
 
