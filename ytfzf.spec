@@ -1,4 +1,4 @@
-%define version 1.2.0
+%define version 2.1
 %define reponame ytfzf
 
 Name:           ytfzf
@@ -10,7 +10,7 @@ Url:            https://github.com/pystardust/ytfzf
 Source0:        https://github.com/pystardust/ytfzf/archive/refs/tags/v%{version}.tar.gz
 
 Requires:       mpv
-Requires:       youtube-dl
+Requires:       yt-dlp
 Requires:       jq
 Recommends:     fzf
 
@@ -36,6 +36,10 @@ install -m 0755 %{name} %{buildroot}/%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Mon February 7 2022 Ben Homan <ben@benhoman.com>
+- Bumped version to 2.1
+- Changed youtube-dl requirement to yt-dlp
+
 * Thu July 8 2021 Ben Homan <ben@benhoman.com>
 - Bumped version to 1.2.0
 
