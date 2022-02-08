@@ -36,11 +36,11 @@ install -m 0755 %{name} %{buildroot}/%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
-* Mon February 7 2022 Ben Homan <ben@benhoman.com>
+* Mon Feb 7 2022 Ben Homan <ben@benhoman.com>
 - Bumped version to 2.1
 - Changed youtube-dl requirement to yt-dlp
 
-* Thu July 8 2021 Ben Homan <ben@benhoman.com>
+* Thu Jul 8 2021 Ben Homan <ben@benhoman.com>
 - Bumped version to 1.2.0
 
 * Wed Jun 2 2021 Ben Homan <ben@benhoman.com>
