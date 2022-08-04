@@ -1,4 +1,4 @@
-%define version 2.1
+%define version 2.4
 %define reponame ytfzf
 
 Name:           ytfzf
