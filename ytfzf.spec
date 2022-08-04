@@ -1,4 +1,4 @@
-%define version 2.4
+%define version 2.4.0
 %define reponame ytfzf
 
 Name:           ytfzf
@@ -52,7 +52,7 @@ install -m 0755 %{name} %{buildroot}/%{_bindir}/%{name}
 * Fri May 7 2021 Ben Homan <ben@benhoman.com>
 - Bumped version to 1.1.5
 
-* Mon Apr 16 2021 Ben Homan <ben@benhoman.com>
+* Fri Apr 16 2021 Ben Homan <ben@benhoman.com>
 - Bumped version to 1.1.4
 
 * Mon Apr 05 2021 Ben Homan <ben@benhoman.com>
